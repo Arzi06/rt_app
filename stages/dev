@@ -1,0 +1,5 @@
+version = version-example
+namespace = dev
+stage = dev
+region = us-east-1
+

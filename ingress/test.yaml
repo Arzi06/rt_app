@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  name: frontend-ingress
+  namespace: dev
+spec:
+  rules:
+  - host: a31c7ce867b8c410fb47505f3add8662-3ab71caa588e03e3.elb.us-east-1.amazonaws.com
+    http:
+      paths:
+      - backend:
+          serviceName: frontsvc
+          servicePort: 5000
+        path: /

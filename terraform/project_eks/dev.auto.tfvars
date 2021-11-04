@@ -1,9 +1,9 @@
 # AWS profile
 shared_credentials_file = "~/.aws/credentials"
 profile                 = "default"
-account                 = ["270740276000"]
+account                 = ["xxxxxxxx"]
 # Provide your vpn IP
-vpn_ip = ["73.209.102.7/32", ]
+vpn_ip = ["xxxxxx/32", ]
 
 # Provider AWS
 region       = "us-east-1"

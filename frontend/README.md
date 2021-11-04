@@ -8,7 +8,7 @@
 - https://kubernetes.io/docs/concepts/
 - https://docs.docker.com/language/python/build-images/
 
-### Instruction for Makefile: run the following commands in turn to create the EKS cluster
+### Instruction for Makefile: run the following commands in turn to dockerize application and build K8S objects
 
 1. `make targrets` - displays all Makefile targets
 

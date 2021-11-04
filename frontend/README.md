@@ -12,7 +12,7 @@
 
 1. `make targrets` - displays all Makefile targets
 
-2. `make targrets` - `make push` - the commands depend each other. It will wait push -> build -> login 
+2. `make targrets` - `make push` - push will wait for -> build -> login to complete.
 
 3. `make deploy` - create : K8S objects: service, deployment and namespace 
 
